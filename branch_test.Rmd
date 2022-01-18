@@ -1,0 +1,20 @@
+---
+title: "Branch Test"
+author: "Samantha Kuglen"
+date: "1/18/2022"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(starwars, aes(x = mass, y = height)) +
+  geom_point(color = "green")
+```
+
